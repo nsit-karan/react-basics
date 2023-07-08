@@ -23,5 +23,20 @@ function Lines() {
     )
 }
 
-export {MyButton, Lines};
+const user = {
+    name: 'Harry Potter',
+    imageUrl: '',
+    imageSize: 90,
+};
+
+function ProfileCard() {
+    return (
+        <>
+            <h1>{user.name}</h1>
+        </>
+    )
+}
+
+
+export {MyButton, Lines, ProfileCard};
 export default ComplexButton;
