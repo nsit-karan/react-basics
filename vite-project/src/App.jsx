@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import ComplexButton, {MyButton, Lines, ProfileCard} from './BasicsComponents'
+import ComplexButton, {MyButton, Lines, ProfileCard, ConditionalButton} from './BasicsComponents'
+import {ListStrings} from './BasicsComponents'
 import './App.css'
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
     <>
       <ProfileCard />
       <Lines />
-      <MyButton />
-      <Lines />
       <ComplexButton />
+      <Lines />
+      <ConditionalButton />
+      <Lines />
+      <ListStrings />
     </>
   )
 }
